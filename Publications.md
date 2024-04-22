@@ -1,4 +1,5 @@
-# TripalPubLibrary Design Document 
+# Tripal v4 - Publications Design Document 
+This design documents includes multiple classes that are needed for querying, retrieving and importing publications into Tripal using a database-backend agnostic approach.
 
 ## Search Query Form Classes 
 
