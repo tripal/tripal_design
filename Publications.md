@@ -98,7 +98,11 @@ Implementation of the TripalImporter plugin for loading publication data into Ch
  
 ## PubSearchQueryImporter  
 
-Implementation of the `TripalImporter` plugin for loading publication data into Chado using a search query. It will allow the user to select from a set of already created search queries.   
+Implementation of the `TripalImporter` plugin for loading publication data into Chado using a search query. It will allow the user to select from a set of already created search queries. 
+
+#### Form Elements
+- Select list for the database (eg. PubMed)
+- Autocomplete text field (the name of the search query name)
 
 #### Functions: 
 
