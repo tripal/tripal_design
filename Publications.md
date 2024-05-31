@@ -108,6 +108,6 @@ Implementation of the `TripalImporter` plugin for loading publication data into 
 
 - `form()`: Let's the user select a search query – no file upload needed. 
 - `run()`:   Query the `tripal_pub_library_query` table, for the query information to get the TripalPubLibrary  plugin id.  Instantiate the proper instance of the TripalPubLibrary plugin (e.g. `TripalPubLibraryPubmed`). call the library->run() and pass the query id iterate through the array returned by the call above and store the records in Chado.
- - Tables (pub, pub_dbxref, dbxref, pubauthor, pubprop) - do it similarly to GFF
+  - Tables (pub, pub_dbxref, dbxref, pubauthor, pubprop) - do it similarly to GFF
 
  
